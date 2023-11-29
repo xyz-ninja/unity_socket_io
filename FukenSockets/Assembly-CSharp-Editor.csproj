@@ -866,6 +866,22 @@
       <Project>{32023730-5dad-f9f7-b11f-88a5bfe66071}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="Hierarchy2.Editor.csproj">
+      <Project>{a9af0df3-2ec3-0925-52fc-03cb5dde536e}</Project>
+      <Name>Hierarchy2.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanCommon.csproj">
+      <Project>{27deab14-aef3-7e16-d317-5d4ef6544f89}</Project>
+      <Name>LeanCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="Hierarchy2.Runtime.csproj">
+      <Project>{223b4bda-3ebb-b09c-256d-538b114e0ed0}</Project>
+      <Name>Hierarchy2.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanPool.csproj">
+      <Project>{79ca7a60-4a65-9db1-97d8-3ab1f596534f}</Project>
+      <Name>LeanPool</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

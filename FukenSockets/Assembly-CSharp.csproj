@@ -68,10 +68,12 @@
      <Compile Include="Assets\ThirdParty\SocketIO\WebsocketSharp\Net\Chunk.cs" />
      <Compile Include="Assets\ThirdParty\SocketIO\WebsocketSharp\Net\HttpListenerException.cs" />
      <Compile Include="Assets\ThirdParty\SocketIO\WebsocketSharp\Net\WebHeaderCollection.cs" />
+     <Compile Include="Assets\ThirdParty\Joystick Pack\Examples\JoystickSetterExample.cs" />
      <Compile Include="Assets\ThirdParty\SocketIO\WebsocketSharp\Net\CookieCollection.cs" />
      <Compile Include="Assets\ThirdParty\SocketIO\WebsocketSharp\Logger.cs" />
      <Compile Include="Assets\ThirdParty\SocketIO\WebsocketSharp\Net\Security\SslStream.cs" />
      <Compile Include="Assets\ThirdParty\SocketIO\WebsocketSharp\Net\InputChunkState.cs" />
+     <Compile Include="Assets\ThirdParty\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
      <Compile Include="Assets\ThirdParty\SocketIO\JSONObject\JSONTemplates.cs" />
      <Compile Include="Assets\ThirdParty\SocketIO\JSONObject\VectorTemplates.cs" />
      <Compile Include="Assets\ThirdParty\SocketIO\WebsocketSharp\Fin.cs" />
@@ -83,12 +85,14 @@
      <Compile Include="Assets\ThirdParty\SocketIO\WebsocketSharp\WebSocketState.cs" />
      <Compile Include="Assets\ThirdParty\SocketIO\WebsocketSharp\Net\ListenerPrefix.cs" />
      <Compile Include="Assets\ThirdParty\SocketIO\WebsocketSharp\Net\HttpStreamAsyncResult.cs" />
+     <Compile Include="Assets\ThirdParty\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
      <Compile Include="Assets\ThirdParty\SocketIO\WebsocketSharp\Net\ResponseStream.cs" />
      <Compile Include="Assets\ThirdParty\SocketIO\Scripts\SocketIO\Ack.cs" />
      <Compile Include="Assets\ThirdParty\SocketIO\WebsocketSharp\Net\HttpListenerPrefixCollection.cs" />
      <Compile Include="Assets\ThirdParty\SocketIO\WebsocketSharp\Net\HttpDigestIdentity.cs" />
      <Compile Include="Assets\ThirdParty\SocketIO\WebsocketSharp\Net\HttpListenerContext.cs" />
      <Compile Include="Assets\ThirdParty\SocketIO\WebsocketSharp\Net\AuthenticationBase.cs" />
+     <Compile Include="Assets\ThirdParty\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
      <Compile Include="Assets\ThirdParty\SocketIO\WebsocketSharp\Net\HttpUtility.cs" />
      <Compile Include="Assets\ThirdParty\SocketIO\WebsocketSharp\Net\ChunkedRequestStream.cs" />
      <Compile Include="Assets\ThirdParty\SocketIO\WebsocketSharp\CloseStatusCode.cs" />
@@ -98,9 +102,11 @@
      <Compile Include="Assets\ThirdParty\SocketIO\WebsocketSharp\Net\AuthenticationResponse.cs" />
      <Compile Include="Assets\ThirdParty\SocketIO\WebsocketSharp\Net\Cookie.cs" />
      <Compile Include="Assets\ThirdParty\SocketIO\WebsocketSharp\Net\WebSockets\HttpListenerWebSocketContext.cs" />
+     <Compile Include="Assets\ThirdParty\Joystick Pack\Scripts\Base\Joystick.cs" />
      <Compile Include="Assets\ThirdParty\SocketIO\WebsocketSharp\LogLevel.cs" />
      <Compile Include="Assets\ThirdParty\SocketIO\WebsocketSharp\WebSocketFrame.cs" />
      <Compile Include="Assets\ThirdParty\SocketIO\WebsocketSharp\Net\WebSockets\TcpListenerWebSocketContext.cs" />
+     <Compile Include="Assets\ThirdParty\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
      <Compile Include="Assets\ThirdParty\SocketIO\WebsocketSharp\Net\AuthenticationChallenge.cs" />
      <Compile Include="Assets\ThirdParty\SocketIO\Scripts\SocketIO\SocketPacketType.cs" />
      <Compile Include="Assets\ThirdParty\SocketIO\Scripts\SocketIO\Parser.cs" />
@@ -126,25 +132,44 @@
      <Compile Include="Assets\ThirdParty\SocketIO\WebsocketSharp\Net\HttpBasicIdentity.cs" />
      <Compile Include="Assets\ThirdParty\SocketIO\WebsocketSharp\Net\HttpListener.cs" />
      <Compile Include="Assets\ThirdParty\SocketIO\WebsocketSharp\WebSocketStream.cs" />
+     <Compile Include="Assets\ThirdParty\Joystick Pack\Examples\JoystickPlayerExample.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\ThirdParty\SocketIO\WebsocketSharp\Net\Security" />
+     <Folder Include="Assets\ThirdParty\Joystick Pack\Scripts\Joysticks" />
      <None Include="Assets\ThirdParty\SocketIO\JSONObject\readme.txt" />
+     <Folder Include="Assets\ThirdParty\Joystick Pack\Sprites\Vertical Backgrounds" />
      <Folder Include="Assets\ThirdParty\SocketIO\JSONObject" />
      <Folder Include="Assets\ThirdParty\SocketIO" />
+     <None Include="Assets\ThirdParty\Lean\package.json" />
      <Folder Include="Assets\ThirdParty\SocketIO\WebsocketSharp\Net" />
      <Folder Include="Assets\ThirdParty\SocketIO\Server" />
+     <Folder Include="Assets\ThirdParty\Joystick Pack\Sprites" />
+     <Folder Include="Assets\ThirdParty\Joystick Pack\Scripts\Base" />
      <Folder Include="Assets\ThirdParty\SocketIO\Scripts\Test" />
+     <Folder Include="Assets\ThirdParty\Joystick Pack\Prefabs" />
      <Folder Include="Assets\Scripts" />
      <Folder Include="Assets\ThirdParty\SocketIO\WebsocketSharp" />
      <None Include="Assets\ThirdParty\SocketIO\readme.txt" />
      <Folder Include="Assets\Scenes" />
+     <None Include="Assets\ThirdParty\Lean\READ ME.txt" />
+     <Folder Include="Assets\ThirdParty\Joystick Pack\Scripts" />
+     <Folder Include="Assets\ThirdParty\Hierarchy 2\Editor Resources\Icons" />
+     <Folder Include="Assets\ThirdParty\Joystick Pack" />
      <Folder Include="Assets\ThirdParty\SocketIO\Scripts" />
+     <Folder Include="Assets\ThirdParty\Joystick Pack\Examples" />
      <Folder Include="Assets\Scripts\Network" />
      <Folder Include="Assets\ThirdParty\SocketIO\Scenes" />
      <Folder Include="Assets\ThirdParty\SocketIO\WebsocketSharp\Net\WebSockets" />
      <Folder Include="Assets\ThirdParty\SocketIO\Prefabs" />
      <Folder Include="Assets\ThirdParty\SocketIO\Scripts\SocketIO" />
+     <Folder Include="Assets\ThirdParty\Joystick Pack\Sprites\All Axis Backgrounds" />
      <Folder Include="Assets\ThirdParty" />
+     <None Include="Assets\ThirdParty\Lean\Third-Party Notices.txt" />
+     <Folder Include="Assets\ThirdParty\Hierarchy 2\Editor Resources" />
+     <Folder Include="Assets\ThirdParty\Joystick Pack\Sprites\Horizontal Backgrounds" />
+     <Folder Include="Assets\ThirdParty\Lean" />
+     <Folder Include="Assets\ThirdParty\Joystick Pack\Sprites\Handles" />
+     <Folder Include="Assets\ThirdParty\Hierarchy 2" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
@@ -909,6 +934,22 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Hierarchy2.Editor.csproj">
+      <Project>{a9af0df3-2ec3-0925-52fc-03cb5dde536e}</Project>
+      <Name>Hierarchy2.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanCommon.csproj">
+      <Project>{27deab14-aef3-7e16-d317-5d4ef6544f89}</Project>
+      <Name>LeanCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="Hierarchy2.Runtime.csproj">
+      <Project>{223b4bda-3ebb-b09c-256d-538b114e0ed0}</Project>
+      <Name>Hierarchy2.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanPool.csproj">
+      <Project>{79ca7a60-4a65-9db1-97d8-3ab1f596534f}</Project>
+      <Name>LeanPool</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
