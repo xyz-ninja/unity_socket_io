@@ -13,13 +13,13 @@ namespace CaptainABC.Network {
         public override void Start() {
             base.Start();
 
-            _serverObjects = new Dictionary<string, GameObject>();
+            Init();
             
             InitEvents();
         }
 
         private void Init() {
-            
+            _serverObjects = new Dictionary<string, GameObject>();
         }
         
         private void InitEvents() {
